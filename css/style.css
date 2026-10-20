@@ -10,7 +10,7 @@ h1 { font-size: clamp(27px, 3vw, 38px); margin: 0; letter-spacing: -.04em; }
 .product-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 18px; }
 .product-card { display: flex; flex-direction: column; border: 1px solid var(--border); border-radius: 16px; background: var(--white); overflow: hidden; min-width: 0; transition: box-shadow .2s ease, transform .2s ease; }
 .product-card:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(23, 82, 62, .1); }
-.product-image { position: relative; background: linear-gradient(145deg, #f7fbf8, #eef7f1); padding: 18px 14px 10px; aspect-ratio: 1 / 1; display: flex; align-items: center; justify-content: center; }
+.product-image { position: relative; background: linear-gradient(145deg, #f7fbf8, #eef7f1); padding: 18px 14px 10px; aspect-ratio: 4 / 3; display: flex; align-items: center; justify-content: center; }
 .product-image img { max-width: 100%; max-height: 100%; width: 100%; height: 100%; object-fit: contain; }
 .discount-label { position: absolute; z-index: 1; top: 12px; left: 12px; background: var(--orange); border-radius: 6px; color: var(--white); padding: 6px 8px; font-size: 12px; font-weight: 800; }
 .product-details { display: flex; flex: 1; flex-direction: column; padding: 16px; }
